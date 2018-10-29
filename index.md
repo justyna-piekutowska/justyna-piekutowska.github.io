@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<h1>{{MyThoughts | downcase}}</h1>

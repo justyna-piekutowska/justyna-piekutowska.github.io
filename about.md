@@ -1,8 +1,5 @@
 ---
 layout: page
-title: About
+title: O mnie
 ---
-
-# O mnie
-
-Cześć, jestem Justyna. Od dawna zastanawiałam się nad założeniem własnego bloga. Dziś przyszedł ten dzień :). Na blogu na początku pojawią się wpisy związane z moją przygodą, przemyśleniami na temat branży nieruchomości. Nie jest to jedyna rzecz którą się zajmuję. Jestem programistą samoukiem i po rocznej przerwie planuję wrócić do branży. Pozdrawiam :)
+Cześć, jestem Justyna. Od dawna zastanawiałam się nad założeniem własnego bloga. Dziś przyszedł ten dzień :). Na blogu na początku pojawią się wpisy związane z moją przygodą i przemyśleniami na temat branży nieruchomości. Nie jest to jedyna rzecz którą się zajmuję. Jestem programistką samoukiem i po rocznej przerwie planuję wrócić do branży. Pozdrawiam :)
