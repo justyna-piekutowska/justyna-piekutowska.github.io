@@ -1,0 +1,6 @@
+- name: home
+  link: /
+- name: O mnie
+  link: /about.html
+- name: Nieruchomości
+  link: /real-estate.html
