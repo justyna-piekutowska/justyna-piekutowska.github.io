@@ -1,6 +1,7 @@
-- name: HOME
-  link: /
-- name: O MNIE
-  link: /about.html
-- name: NIERUCHOMOŚCI
-  link: /real-estate.html
+main:
+  - title: HOME
+    url: /
+  - title: O MNIE
+    url: /about/
+  - title: NIERUCHOMOŚCI
+    url: /categories/#nieruchomosci/

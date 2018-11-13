@@ -11,57 +11,34 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 theme                    : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "mint" #"default", "air", "aqua", "contrast", "dark", "dirt", "neon", "plum", "sunrise"
+remote_theme             : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "pl-PL"
 title                    : "MyThoughts"
 title_separator          : "-"
-name                     : "Justyna Piekutowska"
-description              : "Simple blog about real estates"
-url                      : "https://justyna-piekutowska.github.io"
-baseurl                  : ""
-repository               : "justyna-piekutowska/justyna-piekutowska.github.io"
+name                     : "Justyna"
+description              : "Blog o przemyśleniach w interesująctch mnie tematach."
+url                      : https://justyna-piekutowska.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+repository               : justyna-piekutowska/justyna-piekutowska.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+# breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman_v2", "staticman" "custom"
-  disqus:
-    shortname            :
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+  provider  : "staticman_v2"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : "master"
-  commitMessage          : # "New comment by {fields.name}"
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "_data/comments/{options.slug}"
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-  endpoint               : # URL of your own deployment with trailing slash, will fallback to the public instance
+  branch             : "master"
+  endpoint           : "https://stm-s.herokuapp.com/v2/entry/"
 reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true #, false (default)
+search                   : true # false (default)
 search_full_content      : # true, false (default)
-search_provider          : lunr #, algolia, google
+search_provider          : lunr # (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
@@ -104,26 +81,26 @@ author:
   name             : "Justyna"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Cześć, na blogu znajdziesz wpisy związane z moją przygodą i przemyśleniami na temat branży nieruchomości.
-                    Nie jest to jedyna rzecz którą się zajmuję. Jestem programistką samoukiem i
-                    po rocznej przerwie planuję wrócić do branży. Pozdrawiam :)"
+-                    Nie jest to jedyna rzecz którą się zajmuję. Jestem programistką samoukiem i
+-                    po rocznej przerwie planuję wrócić do branży. Pozdrawiam :)"
   location         : "Polska"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:piekutowska.justyna@protonmail.com
+      # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://justyna-piekutowska.github.io"
     #- label: "Twitter"
-      #icon: "fab fa-fw fa-twitter-square"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/justyna-piekutowska"
+      url: "https://justyna-piekutowska.github.io"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -131,23 +108,23 @@ author:
 # Site Footer
 footer:
   links:
-  #  - label: "Twitter"
-  #    icon: "fab fa-fw fa-twitter-square"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
       # url:
-  #  - label: "Facebook"
-  #    icon: "fab fa-fw fa-facebook-square"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/justyna-piekutowska"
-  #  - label: "GitLab"
-  #    icon: "fab fa-fw fa-gitlab"
+      url: https://github.com/justyna-piekutowska/
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
       # url:
-  #  - label: "Bitbucket"
-  #    icon: "fab fa-fw fa-bitbucket"
+    #- label: "Bitbucket"
+    #  icon: "fab fa-fw fa-bitbucket"
       # url:
-  #  - label: "Instagram"
-  #    icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+    #  icon: "fab fa-fw fa-instagram"
       # url:
 
 
@@ -253,20 +230,20 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
-#tag_archive:
-#  type: liquid
-#  path: /tags/
+tag_archive:
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
-#jekyll-archives:
-#  enabled:
-#    - categories
-#    - tags
-#  layouts:
-#    category: archive-taxonomy
-#    tag: archive-taxonomy
-#  permalinks:
-#    category: /categories/:name/
-#    tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
